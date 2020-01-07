@@ -11,16 +11,6 @@ class EmailAddressParser
         @emails = emails
     end
 
-    # def remove_duplicates(emails)
-    #     new_array = []
-
-    #     emails.each do |email|
-    #         new_array << email unless new_array.include?(email)
-    #     end
-
-    #     new_array
-    # end
-
     def parse
         split_emails = @emails.split(" ")
  
