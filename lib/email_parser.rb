@@ -4,7 +4,6 @@
 # or whitespace (' ').
 
 
-# require 'pry'
 class EmailAddressParser
     attr_accessor :emails
   
@@ -16,9 +15,4 @@ class EmailAddressParser
     def parse
         emails.split(/, | /).uniq
     end 
-
- 
-
-
-#binding.pry
 end
